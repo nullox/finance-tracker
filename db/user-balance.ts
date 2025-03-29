@@ -1,5 +1,5 @@
 import prisma from '@/lib/prisma';
-import { currencies, FALLBACK_CURRENCY } from '@/lib/currencies';
+import { FALLBACK_CURRENCY } from '@/lib/currencies';
 
 interface Params {
 	userId: string;

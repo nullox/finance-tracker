@@ -11,8 +11,8 @@ interface Params {
 export function updateMonthHistory({ userId, income, expense, date }: Params) {
 	if (income === 0 && expense === 0) return null;
 
-	let [year, month] = splitYMD(date);
-	month -= 1;
+	const [year, monthBase] = splitYMD(date);
+	const month = monthBase - 1;
 
 	return prisma.monthHistory.upsert({
 		where: {

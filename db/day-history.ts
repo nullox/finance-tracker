@@ -11,8 +11,8 @@ interface Params {
 export function updateDayHistory({ userId, income, expense, date }: Params) {
 	if (income === 0 && expense === 0) return null;
 
-	let [year, month, day] = splitYMD(date);
-	month -= 1;
+	const [year, monthBase, day] = splitYMD(date);
+	const month = monthBase - 1;
 
 	return prisma.dayHistory.upsert({
 		where: {
