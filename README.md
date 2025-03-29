@@ -2,7 +2,7 @@
 
 A modern, user-friendly finance tracking application built with Next.js. This app allows users to monitor their income and expenses, categorize transactions, and visualize financial insights through charts.
 
-**Try it out here (Coming soon!)**
+[**Try it out here**](https://finance-tracker-pi-one.vercel.app)
 
 [![App Preview](screenshots/preview.png)](screenshots/preview.png)
 
