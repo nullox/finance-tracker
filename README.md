@@ -16,7 +16,7 @@ A modern, user-friendly finance tracking application built with Next.js. This ap
 ## Tech Stack
 
 - **Frontend & Framework**: Next.js, Shadcn UI
-- **Languages & Tools**: TypeScript, Prisma, TanStack Query, Zod, Auth.js
+- **Languages & Tools**: TypeScript, Prisma, PostgreSQL, TanStack Query, Zod, Auth.js
 
 ## Project Goal
 
