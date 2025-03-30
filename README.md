@@ -27,6 +27,7 @@ The primary goal of this project is to gain hands-on experience with Next.js whi
 ### Prerequisites
 Ensure you have the following installed:
 - Node.js (>= 20)
+- PostgreSQL
 - pnpm (recommended)
 
 ### Installation
