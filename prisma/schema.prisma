@@ -19,7 +19,7 @@ enum TransactionType {
 model Settings {
   userId   String @id
   currency String
-  balance  Int
+  balance  Float
 }
 
 model Category {

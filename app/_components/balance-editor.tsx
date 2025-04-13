@@ -34,7 +34,7 @@ export default function BalanceEditor() {
   const handleBlur = useCallback(
     (e: React.ChangeEvent<HTMLInputElement>) => {
       const value = e.target.value.trim();
-      const balance = parseInt(value);
+      const balance = parseFloat(value);
 
       if (balance === prevBalance) return;
 
@@ -67,6 +67,7 @@ export default function BalanceEditor() {
             onBlur={handleBlur}
             type="number"
             aria-label="Current balance"
+            step={0.01}
           />
         </SkeletonWrapper>
       </CardContent>
